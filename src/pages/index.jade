@@ -1,0 +1,141 @@
+---
+layout: default.html
+title: Manifesto
+---
+
+h1 Zenlogic Edge manifesto: our vision
+p Let’s build the new Zenlogic, let’s build the most modern IT services company in Japan!
+
+mixin card(title, icon, color)
+  .zen-card
+    .header(class=color)
+      i(class = 'fa fa-' + icon)
+      span(style="margin-left: 0.5rem")= ' ' + title
+    .inner
+      block
+
+
+h2 Keywords
+
+.zen-row.with-gutters
+  div
+    +card('SIMPLE', 'smile-o', 'blue')
+      p "Simplicity is a feature!"
+      p We want our customers to enjoy our products.
+  div
+    +card('MODERN', 'globe', 'pink')
+      p Let's bring Japan the best of overseas products, customized to fit:
+      ul
+        li customer needs
+        li Japanese culture.
+  div
+    +card('MOBILE', 'mobile', 'green')
+      div We have to deliver products that fit <b>all</b> devices:
+      ul
+        li mobiles
+        li tablets
+        li desktops
+
+
+h2 Business Target
+
+p Customers need <bold>services</bold> like: email, real time communication, SNS integration, they don’t need "servers".
+
+p So the new motto is: "Modern services for modern companies"
+
+p Target: small/medium size businesses + companies interested by the new modern image.
+
+h2 Application & Service ideas
+
+h3 Idea #1: real time communication tool
+
+p Everyone loves Slack because of:
+
+ul
+  li Nice UI, very easy to use
+  li Multiplatform (desktop, mobile)
+  li Integration with other services
+  li Search engine
+  li it is fun to use!
+
+p Who loves Primechat ?
+
+p
+  | Let's build our own Slack-clone solution, self-hosted on Zenlogic servers,
+  | customized to fit Japanese small businesses using an open-source solution
+  | like <a href="http://www.mattermost.com/">http://www.mattermost.com/</a>
+
+p Points:
+
+ul
+  li Easy to develop, everything is ready, we just have to customize
+  li Safe: customer data is hosted on Zenlogic servers
+
+:marked
+  ![image](https://cloud.githubusercontent.com/assets/5546996/15956202/e2991c8e-2f21-11e6-9e52-372328877cad.png)
+
+h3 Idea #2: real time chat solution
+
+p Launch a video conversion with anyone in the world, just by sharing an URL. Yes we can!
+
+ul
+  li No signup / signin
+  li No installation required (it uses modern web browsers features and WebRTC technology)
+  li Works everywhere, from desktop and client
+
+
+
+:marked
+  Related project: [Sendbird](http://sendbird.com/) (chat API and SDK)
+
+  ![image](https://cloud.githubusercontent.com/assets/5546996/15957766/3b08a2d6-2f2c-11e6-9a89-9c978eb8b4bd.png)
+
+h3 Idea #3: super fast search engine solution
+
+p Let's create a Japanese version of <a href="https://www.algolia.com/">Algolia</a>: cloud-powered search engine.
+
+p "Hosted Search API that delivers instant and relevant results from the first keystroke"
+
+p Used by Facebook <a href="https://facebook.github.io/react/">React documentation</a> site.
+
+:marked
+  ![image](https://cloud.githubusercontent.com/assets/5546996/15956180/af813c82-2f21-11e6-8c97-c085406d28fa.png)
+
+h3 Idea #4: smart homepages created by AI
+
+p Concept: create an awesome page automatically by answering some questions from bot, using machine learning and/or big data from SNS.
+
+p Related concepts
+
+:marked
+  * [The Grid](http://thegrid.io) AI Websites That Design Themselves
+  * [WIX](http://thenextweb.com/dd/2016/06/07/wix-adi-ai/#gref) Wix’s new ADI tool uses artificial intelligence to build a Website for you
+
+  ![image](https://cloud.githubusercontent.com/assets/5546996/15957856/bfe4c4bc-2f2c-11e6-8b8f-9407cd19485e.png)
+
+
+h2 The power of open source
+
+p Why so many famous companies go open source ?
+
+:marked
+  * Facebook https://code.facebook.com/
+  * Netflix http://netflix.github.io/
+  * LinkedIn http://linkedin.github.io/
+  * Twitter http://twitter.github.io/
+  * and MicroSoft too! http://microsoft.github.io/
+
+
+p ...because it's good for business!
+
+ul
+  li it gives a modern image (transparency + advance technology)
+  li The community helps improve products… for free!
+
+p So let’s go open source for our new applications, we have nothing to hide, we want to show the word our awesomeness!
+
+p Developers who use Zenlogic apps will choose Zenlogic hosting services because they trust us.
+
+h2 Together we can make things happen!
+
+p A manifesto written by Michael, with the support of Azukiwasher and Vanx.

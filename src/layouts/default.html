@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Zenlogic Edge | {{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://z-styleguide.firebaseapp.com/toolkit.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+      .zen-row .zen-card{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      .zen-row .zen-card .inner{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .zen-card .header{
+        font-size: 1.5rem;
+      }
+      .zen-card .header .fa{
+        font-size: 2.5rem;
+      }
+      .zen-card ul{
+        padding: 0;
+        padding-left: 1.5rem;
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body class="sticky-footer-layout">
+    <div class="zen-header">
+      <div class="blue-line"></div>
+      <div class="zen-container">
+        <div class="grid">
+          <div>
+            <div class="zenlogic-logo"></div>
+          </div>
+          <div>
+            <div class="title">Edge™</div>
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sticky-footer-layout-main" style="padding-bottom: 2rem">
+      <div class="zen-container">
+        {{{ contents }}}
+      </div>
+    </div>
+
+    <footer class="zen-footer">
+      <div class="zen-container">
+        <h2>Zenlogic Edge™</h2>
+        <div class="grid">
+          <div class="column">
+            <p>Modern tools for modern companies</p>
+            <p>Enter the future, now!</p>
+          </div>
+          <div class="column">
+            <div style="margin-bottom: 1.5em">
+              <div style="margin:0 0 .5em;">
+                <a href="mailto:contact@zenlogic.jp" target="_blank" class="zen-button orange outline right labeled-icon">
+                  <i class="fa fa-at icon"></i>
+                  <span>contact@zenlogic.jp</span>
+                </a>
+              </div>
+              <div>受付時間: 24時間 365日</div>
+            </div>
+            <div style="margin-bottom: 1.5em">
+              <a style="margin:0 0 .5em;" href="tel:0120-925-138" class="zen-button orange outline right labeled-icon no-link">
+                <i class="fa fa-phone icon"></i>
+                <span><i>0120-925-138</i></span>
+              </a>
+              <div>受付時間: 平日9:00~18:00</div>
+            </div>
+            <a href="/contact" target="_blank" class="zen-button orange outline right labeled-icon">
+              <i class="fa fa-pencil icon"></i>
+              <span>お問合わせフォーム</span>
+            </a>
+          </div>
+          <div>
+            <div class="zenlogic-logo"></div>
+            <div class="copyright">Copyright © FirstServer, Inc. All Rights Reserved.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

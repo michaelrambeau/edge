@@ -1,0 +1,23 @@
+{
+  "name": "zenlogic-edge",
+  "version": "0.0.1",
+  "description": "Zenlogic Edge manifesto",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "jstransformer-marked": "^1.0.1",
+    "metalsmith": "^2.1.0",
+    "metalsmith-jade": "^2.0.2",
+    "metalsmith-layouts": "^1.6.5",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-watch": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "surge www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Rambeau",
+  "license": "MIT"
+}
